@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * main - primt _putchar and a new line
+ * main - primt _putchar
  * Return: Always 0
  */
 int main(void)
 {
-	_putchr('_');
-	_putchr('p');
-	_putchr('u');
-	_putchr('t');
-	_putchr('c');
-	_putchr('h');
-	_putchr('a');
-	_putchr('r');
-	_putchr('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
