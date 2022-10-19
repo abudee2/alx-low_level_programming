@@ -1,6 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+/**
+ * _putchar - print characters
+ *
+ * @c: parameter passed
+ * Return: if there is any
+ */
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
