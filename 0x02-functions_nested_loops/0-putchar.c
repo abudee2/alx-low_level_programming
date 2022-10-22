@@ -13,9 +13,9 @@ int main(void)
 	_putchr('t');
 	_putchr('c');
 	_putchr('h');
-	_putchar('a');
-	_putchar('r');
+	_putchr('a');
+	_putchr('r');
 
-	_putchar('\n');
+	_putchr('\n');
 	return (0);
 }
