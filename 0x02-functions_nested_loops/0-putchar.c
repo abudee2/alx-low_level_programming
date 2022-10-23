@@ -1,21 +1,11 @@
-#include "main.h"
-
+#include<stdio.h>
 /**
- * main - print _putchar
- *is written by abudee2
- * Return: 0
+ * _putchar - prints _putchar out
  */
-
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
-return (0);
+	char c = "putchar";
+
+	printf(c);
+	return (0);
 }
