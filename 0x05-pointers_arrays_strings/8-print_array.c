@@ -1,25 +1,22 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
-  * puts2 - Prints every other character of a string
-  * @str: The string to be treated
-  *
-  * Return: void
-  */
-void puts2(char *str)
+ * print_array - prints n times the elements of an array
+ * @a: the pointer to the elements
+ * @n: times to print elements
+ */
+void print_array(int *a, int n)
 {
 	int i;
-	int j = 0;
 
-	while (str[j] != '\0')
+	for (i = 0 ; i < n ; i++)
 	{
-		j++;
-	}
+		printf("%d", a[i]);
 
-	for (i = 0; i < j; i += 2)
-	{
-		_putchar(str[i]);
+		if (i < n - 1)
+		{
+			printf(", ");
+		}
 	}
-
-	_putchar('\n');
+	putchar('\n');
 }

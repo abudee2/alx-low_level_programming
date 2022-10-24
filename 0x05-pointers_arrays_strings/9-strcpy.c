@@ -1,25 +1,33 @@
 #include "main.h"
-
 /**
-  * puts2 - Prints every other character of a string
-  * @str: The string to be treated
-  *
-  * Return: void
-  */
-void puts2(char *str)
+ * _strcpy - copie the string
+ * @dest: array that returns
+ * @src: the pointer that receive the string
+ *
+ * Return: the parameter dest.
+ */
+char *_strcpy(char *dest, char *src)
 {
+	int n = 0;
 	int i;
-	int j = 0;
 
-	while (str[j] != '\0')
+	while (src[n] != '\0')
 	{
-		j++;
+		n++;
 	}
 
-	for (i = 0; i < j; i += 2)
+		i = 0;
+	while (i < n && src[i] != '\0')
 	{
-		_putchar(str[i]);
+		dest[i] = src[i];
+		i++;
 	}
 
-	_putchar('\n');
+		i = i;
+	while (i <= n)
+	{
+		dest[i] = '\0';
+		i++;
+	}
+	return (dest);
 }
